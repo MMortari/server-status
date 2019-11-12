@@ -1,0 +1,38 @@
+.app {
+  padding: 30px;
+
+  h1 {
+    color: #323232
+  }
+
+  table {
+    width: 100%;
+    td, th {
+      text-align: center;
+
+      &:first-child {
+        width: 15%;
+      }
+    }
+    .status {
+      background: black;
+      height: 18px;
+      width: 18px;
+      display: inline-block;
+      border-radius: 50%;
+
+      &-up {
+        background: #0ce881;
+      }
+      &-down {
+        background: #ff3f34;
+      }
+      &-warn {
+        background: #ffa800;
+      }
+      &-neutro {
+        background: #d2dae2;
+      }
+    }
+  }
+}

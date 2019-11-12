@@ -1,0 +1,18 @@
+{
+  "servers": [
+    {
+      "id": 1,
+      "name": "Tomcat",
+      "url": "http://localhost:",
+      "port": 8585,
+      "post_url": ""
+    },
+    {
+      "id": 2,
+      "name": "Wildfly",
+      "url": "http://localhost:",
+      "port": 8081,
+      "post_url": "/wsselfbooking/"
+    }
+  ]
+}
