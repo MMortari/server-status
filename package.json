@@ -5,6 +5,7 @@
   "main": "src/main.js",
   "homepage": "./",
   "dependencies": {
+    "@rocketseat/unform": "^1.6.1",
     "axios": "^0.18.0",
     "bootstrap": "^4.3.1",
     "concurrently": "^3.6.1",
@@ -16,6 +17,7 @@
     "react": "^16.4.2",
     "react-bootstrap": "^1.0.0-beta.14",
     "react-dom": "^16.4.2",
+    "react-hook-form": "^3.27.0",
     "react-icons": "^3.8.0",
     "react-router-dom": "^4.3.1",
     "react-scripts": "1.1.4",

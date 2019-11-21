@@ -23,7 +23,7 @@ function createWindow() {
     mainWindow.loadURL('http://localhost:3000');
 
     // Open the DevTools.
-    // mainWindow.webContents.openDevTools();
+    mainWindow.webContents.openDevTools();
 
     // Emitted when the window is closed.
     mainWindow.on('closed', function () {
@@ -50,7 +50,7 @@ app.on('activate', function () {
 //     newServerWindow.webContents.send('args', arg);
 // })
 ipcMain.on('notification', (event, arg) => {
-    console.log("Notification")
+    console.log("Notification -> ", arg)
     new Notification({
         title: "Server Status",
         body: arg,
